@@ -772,13 +772,13 @@ plt.title("Violin Sales by Year")
 
 
     
-![png](output_14_1.png)
+![png](figs/output_14_1.png)
     
 
 
 
     
-![png](output_14_2.png)
+![png](figs/output_14_2.png)
     
 
 
@@ -845,7 +845,7 @@ ax2.scatter(X2, Y)
 
 
     
-![png](output_18_1.png)
+![png](figs/output_18_1.png)
     
 
 
@@ -878,7 +878,7 @@ sns.violinplot(x='ESRB_Rating', y='Total_Sales', data=ESRB_df, ax=ax2, scale='wi
 
 
     
-![png](output_20_1.png)
+![png](figs/output_20_1.png)
     
 
 
@@ -935,7 +935,7 @@ categorical_plot("ESRB_Rating")
 
 
     
-![png](output_24_0.png)
+![png](figs/output_24_0.png)
     
 
 
@@ -1109,7 +1109,7 @@ plt.plot(X, Y)
 
 
     
-![png](output_28_1.png)
+![png](figs/output_28_1.png)
     
 
 
@@ -1129,7 +1129,7 @@ categorical_plot("Genre")
 
 
     
-![png](output_30_0.png)
+![png](figs/output_30_0.png)
     
 
 
@@ -1325,7 +1325,7 @@ ax.set_title("Violin Sales by Country")
 
 
     
-![png](output_34_1.png)
+![png](figs/output_34_1.png)
     
 
 
@@ -1344,7 +1344,7 @@ categorical_plot("Country")
 
 
     
-![png](output_36_0.png)
+![png](figs/output_36_0.png)
     
 
 
@@ -1387,7 +1387,7 @@ plt.plot(platform_df.head(10)['Platform'], platform_df.head(10)['Platform_Sales'
 
 
     
-![png](output_38_1.png)
+![png](figs/output_38_1.png)
     
 
 
@@ -1406,7 +1406,7 @@ categorical_plot('Platform')
 
 
     
-![png](output_40_0.png)
+![png](figs/output_40_0.png)
     
 
 
@@ -1579,7 +1579,7 @@ print("Slope:",m)
 
 
     
-![png](output_43_1.png)
+![png](figs/output_43_1.png)
     
 
 
@@ -1616,7 +1616,7 @@ print("Intercept:", b)
 
 
     
-![png](output_45_1.png)
+![png](figs/output_45_1.png)
     
 
 
@@ -1669,7 +1669,7 @@ plt.plot(X, P, color='r')
 
 
     
-![png](output_49_1.png)
+![png](figs/output_49_1.png)
     
 
 
@@ -1695,7 +1695,7 @@ sns.violinplot(x='Year', y='Residuals', data=resids, ax=ax, scale='width')
 
 
     
-![png](output_51_1.png)
+![png](figs/output_51_1.png)
     
 
 
@@ -1906,7 +1906,7 @@ plt.plot(X, P, color='r')
 
 
     
-![png](output_60_1.png)
+![png](figs/output_60_1.png)
     
 
 
@@ -1932,7 +1932,7 @@ sns.violinplot(x='Year', y='Residuals', data=resids, ax=ax, scale='width')
 
 
     
-![png](output_62_1.png)
+![png](figs/output_62_1.png)
     
 
 
@@ -1970,7 +1970,7 @@ sns.violinplot(x='Year', y='Residuals', data=resids, ax=ax, scale='width')
 
 
     
-![png](output_64_1.png)
+![png](figs/output_64_1.png)
     
 
 
@@ -2010,31 +2010,31 @@ for tree_in_forest in forest.estimators_:
 
 
     
-![png](output_68_0.png)
+![png](figs/output_68_0.png)
     
 
 
 
     
-![png](output_68_1.png)
+![png](figs/output_68_1.png)
     
 
 
 
     
-![png](output_68_2.png)
+![png](figs/output_68_2.png)
     
 
 
 
     
-![png](output_68_3.png)
+![png](figs/output_68_3.png)
     
 
 
 
     
-![png](output_68_4.png)
+![png](figs/output_68_4.png)
     
 
 
